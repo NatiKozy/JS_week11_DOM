@@ -1,0 +1,49 @@
+.basket__card {
+  display: flex;
+}
+
+.basket__title {
+  font-family: "Jost", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 58px;
+}
+
+.basket__img {
+  width: 300px;
+}
+
+.basket__text-container__title {
+  font-family: "Jost", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 48px;
+}
+
+.basket__text-container__text {
+  font-family: "Jost", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+#basket__sales-btn {
+  font-family: "Jost", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.basket__total {
+  font-family: "Jost", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+#basket__total-price {
+  font-family: "Jost", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 40px;
+}/*# sourceMappingURL=styles.css.map */

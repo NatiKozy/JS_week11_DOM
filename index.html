@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS_3_DOM</title>
+    <link rel="stylesheet" type="text/css" href="./assets/styles/normalize.css">
+    <link rel="stylesheet" type="text/css" href="./assets/styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="basket">
+        <h1 class="basket__title">Корзина</h1>
+        <div class="basket__card">
+            <img class="basket__img" src="./assets/images/img1.jpg" alt="electric_toothbrush">
+            <div class="basket__text-container">
+                <p class="basket__text-container__title">Электрическая зубная щетка, детская</p>
+                <p class="basket__text-container__text">Цвет: разноцветный <br>Количество: 1</p>
+            </div>
+            <div>
+                <p class="basket__price">5999.99</p>
+            </div>
+        </div>
+        <div class="basket__card">
+            <img class="basket__img" src="./assets/images/img2.jpg" alt="irrigation_system">
+            <div class="basket__text-container">
+                <p class="basket__text-container__title">Ирригатор</p>
+                <p class="basket__text-container__text"><br>Цвет: белый <br>Количество: 1</p>
+            </div>
+            <div>
+                <p class="basket__price">2499.99</p>
+            </div>
+        </div>
+        <div class="basket__card">
+            <img class="basket__img" src="./assets/images/img3.jpg" alt="toothpaste">
+            <div class="basket__text-container">
+                <p class="basket__text-container__title">Зубная паста, детская</p>
+                <p class="basket__text-container__text">Цвет: н/о <br>Количество: 1</p>
+            </div>
+            <div>
+                <p class="basket__price">229.99</p>
+            </div>
+        </div>
+        <div class="basket__card">
+            <img class="basket__img" src="./assets/images/img4.jpg" alt="tooth_thread">
+            <div class="basket__text-container">
+                <p class="basket__text-container__title">Зубная нить, клубничная</p>
+                <p class="basket__text-container__text">Цвет: н/о<br>Количество: 1</p>
+            </div>
+            <div>
+                <p class="basket__price">199.99</p>
+            </div>
+        </div>
+        <div>
+        <button id="basket__sales-btn">Использовать купон на 20%</button>
+        <p class="basket__total">Итого</p>
+        <p id="basket__total-price"></p>
+        </div>
+    </section>
+</body>
+</html>
