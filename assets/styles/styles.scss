@@ -40,12 +40,25 @@ $title-font: 'Jost',sans-serif;
     @include text-font;
 }
 
+.basket__btns-wrapper{
+    display: flex;
+    justify-content: space-around;
+    gap:30px;
+    margin-top: 5%;
+}
+
 #basket__sales-btn{
     @include text-font;
+    height: 80px;
 }
 
 .basket__total{
     @include text-font;
+}
+
+#basket__result{
+    @include text-font;
+    margin-top: 30px;
 }
 
 #basket__total-price{
