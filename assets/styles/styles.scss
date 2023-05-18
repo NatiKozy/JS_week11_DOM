@@ -1,42 +1,67 @@
-$title-font: 'Jost',sans-serif;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$font: 'Jost',sans-serif;
 
 @mixin h1-font{
-    font-family:$title-font;
+    font-family:$font;
     font-size: 40px;
     font-weight: 700;
     line-height: 58px;
 }
 
 @mixin title-font{
-    font-family:$title-font;
+    font-family:$font;
     font-size: 32px;
     font-weight: 400;
     line-height: 48px;
 }
 
 @mixin text-font{
-    font-family:$title-font;
+    font-family:$font;
     font-size: 28px;
     font-weight: 400;
     line-height: 40px;
 }
 
+body{
+    max-width:1600px;
+    width: 100%;
+    margin: 0 auto;
+}
+
 .basket__card{
     display: flex;
+    justify-content: space-around;
+    border: 1px solid green;
+    height: 15rem;
 }
+
 .basket__title{
     @include h1-font;
+    text-align: center;
 }
 
 .basket__img{
-    width:300px;
+    width:20%;
+}
+
+.basket__text-container{
+    width: 40%;
 }
 
 .basket__text-container__title{
     @include title-font;
 }
 
-.basket__text-container__text{
+.basket__text-container__text,
+#basket__result,
+.basket__total,
+#basket__total-price,
+.basket__price{
     @include text-font;
 }
 
@@ -44,23 +69,12 @@ $title-font: 'Jost',sans-serif;
     display: flex;
     justify-content: space-around;
     gap:30px;
-    margin-top: 5%;
+    margin-top: 3%;
 }
 
 #basket__sales-btn{
     @include text-font;
     height: 80px;
+    margin-bottom: 50px
 }
 
-.basket__total{
-    @include text-font;
-}
-
-#basket__result{
-    @include text-font;
-    margin-top: 30px;
-}
-
-#basket__total-price{
-    @include text-font;
-}
